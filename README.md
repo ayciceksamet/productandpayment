@@ -1,18 +1,3 @@
-***Product Management and Payment System***
-
-*ProductController*
-
-/product/add - Add new product to system.                 - POST
-
-/product/update/{id} - Update existing product on system. - PUT
-
-/product/remove/{id} - Remove existing product on system. - DELETE
-
-/product/get/{id}- Fetch to product on system.            - GET
-
-/product/get - Fetch all products on system.              - GET
-
-
 # Product and Payment Management System RESTAPIDoc
 
 These restapi were designed to perform simulate product and payment management system using [Spring Framework](https://spring.io/)
@@ -22,8 +7,7 @@ is running on 'http://localhost:8080/'.
 
 ### Product related
 
-Each endpoint manipulates or displays information related to the User whose
-Token is provided with the request:
+Each endpoint manipulates or displays information related to the product on the system.
 
 * [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
 * [Update Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `PUT /product/remove/{id}`
@@ -32,13 +16,9 @@ Token is provided with the request:
 * [Get All Products](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `GET /product/get`
 
 
-### Account related
+### Buy related
 
-Endpoints for viewing and manipulating the Accounts that the Authenticated User
-has permissions to access.
+Endpoints for viewing and manipulating the sell process that integrating products on the system.
 
-* [Show Accessible Accounts](accounts/get.md) : `GET /api/accounts/`
-* [Create Account](accounts/post.md) : `POST /api/accounts/`
-* [Show An Account](accounts/pk/get.md) : `GET /api/accounts/:pk/`
-* [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
-* [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
+* [Buy Product](src/main/java/com/iyzico/challenge/controller/BuyController.java) : `POST /buy`
+
