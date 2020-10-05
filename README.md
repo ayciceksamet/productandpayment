@@ -22,3 +22,11 @@ Endpoints for viewing and manipulating the sell process that integrating product
 
 * [Buy Product](src/main/java/com/iyzico/challenge/controller/BuyController.java) : `POST /buy`
 
+### Unit and Integration Tests 
+<p align="center">
+  <figure>
+  <img  width="800" height="400" alt='Unit and Integration Tests' src='/1.jpeg'/>
+   <figcaption>Unit and Integration Tests</figcaption>
+  </figure>
+</p>
+ 
