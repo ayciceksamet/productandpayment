@@ -1,6 +1,6 @@
 ***Product Management and Payment System***
 
-ProductController
+*ProductController*
 
 /product/add - Add new product to system.                 - POST
 
