@@ -26,15 +26,11 @@ Each endpoint manipulates or displays information related to the User whose
 Token is provided with the request:
 
 * [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
-* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+* [Update Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `PUT /product/remove/{id}`
+* [Remove Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `DELETE /product/remove/{id}`
+* [Get Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `GET /product/get/{id}`
+* [Get All Products](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `GET /product/get`
 
-* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
-
-* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
-
-* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
-
-* [Update info](user/put.md) : `PUT /api/user/`
 
 ### Account related
 
