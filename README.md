@@ -13,7 +13,7 @@
 /product/get - Fetch all products on system.              - GET
 
 
-# RESTAPIDocs Examples
+# Product and Payment Management System RESTAPIDoc
 
 These restapi were designed to perform simulate product and payment management system using [Spring Framework](https://spring.io/)
 
@@ -25,7 +25,15 @@ is running on 'http://localhost:8080/'.
 Each endpoint manipulates or displays information related to the User whose
 Token is provided with the request:
 
-* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `GET /api/user/`
+* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+
+* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+
+* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+
+* [Add Product](src/main/java/com/iyzico/challenge/controller/ProductController.java) : `POST /product/add/`
+
 * [Update info](user/put.md) : `PUT /api/user/`
 
 ### Account related
