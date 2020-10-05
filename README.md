@@ -25,8 +25,7 @@ Endpoints for viewing and manipulating the sell process that integrating product
 ### Unit and Integration Tests 
 <p align="center">
   <figure>
-  <img  width="350" height="400" alt='Unit and Integration Tests' src='1.PNG'/>
-   <figcaption>Unit and Integration Tests</figcaption>
+  <img  width="350" height="350" alt='Unit and Integration Tests' src='1.PNG'/>
   </figure>
 </p>
  
